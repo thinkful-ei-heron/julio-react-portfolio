@@ -5,15 +5,15 @@ export class Navbar extends Component {
         return (
             <section className='top-nav-bar'>
                 <nav>
-                    <ul>
+                    <ul  className='nav-bar-items'>
                         <li>
-                            Home
+                            <img src={require('./images/home.svg')} alt='Home' className='nav-icon'/>
                         </li>
                         <li>
-                            Projects
+                            <img src={require('./images/web-programming.svg')} alt='Projects' className='nav-icon'/>
                         </li>
                         <li>
-                            Contact
+                            <img src={require('./images/identification.svg')} alt='Contact' className='nav-icon'/>
                         </li>
                     </ul>
                 </nav>

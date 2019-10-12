@@ -4,22 +4,24 @@ import projectList from './ProjectList'
 export class Projects extends Component {    
     render() {
     return (
-      
-    <ul>
+    <section className='prolst'>
+    
+        <h2>Projects</h2>
         {projectList.map((item) => {
         return (
-        <section className='prolst' key={item.name}>
-            <li>
-            <h2>{item.name}</h2>
-            <h3>{item.description}</h3>
+        <div key={item.name}>
+            
+            <h3>{item.name}</h3>
+            <h4>{item.description}</h4>
             <img src={require(`${item.imageLink}`)} alt={item.name} className='project-image'/>
-            <h3>Links : <a href={item.liveSite} target="_blank" rel="noopener noreferrer">Live Site</a> | <a href={item.codeURL} target="_blank" rel="noopener noreferrer">Code</a></h3>
-            <h3>{item.stack}</h3>
-            </li>
-        </section> 
+            <h4>Links : <a href={item.liveSite} target="_blank" rel="noopener noreferrer">Live Site</a> | <a href={item.codeURL} target="_blank" rel="noopener noreferrer">Code</a></h4>
+            <h4>{item.stack}</h4>
+            
+        </div> 
         )}
       )}
-      </ul>
+    
+    </section>
     );
   }
 }
