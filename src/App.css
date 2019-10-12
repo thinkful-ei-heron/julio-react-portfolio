@@ -9,6 +9,24 @@
         text-align: center;
         line-height: 1.5;
     }
+    .landing {
+        position: relative;
+    }
+    #background-video {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background-size: cover;
+    }
     nav {
         color: white;
         padding: 1% 0;
@@ -18,6 +36,7 @@
         left: 0;
         right: 0;
         z-index: 10;
+        height: auto;
     }
     li {
         display: inline;
@@ -27,6 +46,9 @@
     }
     section {
         padding: 10px;
+    }
+    .landing {
+        padding-top: 60px;
     }
     .prolst {
         margin-top: 0;
@@ -51,7 +73,7 @@
         padding: 10px;
     }
     .nav-icon {
-        width: 10%;
-        /* border: 1px orange solid; */
+        width: 8%;
     }
+    
 }

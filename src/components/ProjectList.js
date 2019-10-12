@@ -14,7 +14,8 @@ const projectList = [
         imageLink:'./images/The Office Quiz.png',
         liveSite: 'https://thinkful-ei-heron.github.io/q-app-julio-wesley/',
         codeURL: 'https://github.com/thinkful-ei-heron/q-app-julio-wesley',
-    }
+    },
+
 ];
 
 export default projectList
