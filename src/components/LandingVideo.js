@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 
 const sectionStyle = {
-    position: "absolute",
+    position: "fixed",
     'zIndex': "-100",
     bottom: "0",
     right: "0",

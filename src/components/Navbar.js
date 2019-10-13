@@ -12,7 +12,8 @@ const navStyles = {
     justifyContent: 'center',
 }
 const iconStyles = {
-    width:'30px',
+    width:'5vw',
+    maxWidth: '45px',
     dislay:'inline',
 }
 const listStyles = {
