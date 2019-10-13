@@ -1,32 +1,13 @@
 import React, { Component } from 'react'
-let sectionStyles = {
-    backgroundColor:'#86C5D8',
-    padding:'5vh 10vw',
-    textAlign: 'center',
-    border: '3px solid',
-    borderRadius: '5px',
-    margin:'0 auto',
-    maxWidth: '1200px',
-    marginBottom: '3vh',
-}
-
-let itemStyles = {
-    backgroundColor:'#F0F8FF',
-    padding:'5vh 5vw',
-    lineHeight: '2',
-    border:'2px solid black',
-    borderRadius: '3px',
-    margin: '20px auto',
-    maxWidth: '1000px',
-  }
+import './index.css'
 
 
 export class Bio extends Component {
     render() {
         return (
-            <section className='bio' style={sectionStyles}>
+            <section id='bio' className='sectionStyles'>
                 <h2>About Me</h2>
-                <div style={itemStyles}>
+                <div className='itemStyles'>
                     <h4>Hey there! I’m glad you’ve found my page. 
                         My name is Julio Cesar Hernandez, but you can call me Julius 
                         Caesar if you’d like. I’m an up and coming web dev/software 

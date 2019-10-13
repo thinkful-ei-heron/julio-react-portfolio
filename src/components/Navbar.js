@@ -13,9 +13,8 @@ const navStyles = {
 }
 const iconStyles = {
     width:'5vw',
-    maxWidth: '45px',
-    minWidth: '35px',
-    dislay:'inline',
+    maxWidth: '35px',
+    minWidth: '30px',
 }
 const listStyles = {
     display: 'inline-block',

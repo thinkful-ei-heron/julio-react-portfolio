@@ -16,7 +16,7 @@ const textStyle = {
     'textAlign':"center",
     'verticalAlign':"center",
     'justifyContent':'center',
-    'padding':'40vh 0',
+    'padding':'30vh 0',
     fontSize:'40px',
     
 }
@@ -26,9 +26,8 @@ export class Landing extends Component {
         
         <section id='landing' style={sectionStyle}>
             <header style={textStyle} role="banner" id="header">
-                <h1>Hello World!</h1>
+                <h1>Hello World !</h1>
                 <h2>{"<Julio Hernandez/>"}</h2>
-                <h2>Portfolio</h2>
             </header>
             <LandingVideo />
         </section>

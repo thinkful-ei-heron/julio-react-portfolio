@@ -1,0 +1,50 @@
+.sectionStyles {
+    background-color:rgba(1,1,1,.9);
+    color: white;
+    padding:5vh 10vw;
+    text-align: center;
+    border: 10px solid #301934;
+    border-radius: 5px;
+    margin:0 auto;
+    max-width: 1200px;
+    margin-bottom: 3vh;
+}
+.itemStyles {
+    background-color:#301934;
+    padding:5vh 5vw;
+    line-height: 2;
+    border: 2px solid #301934;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 1000px;
+} 
+.projectStyles {
+    background-color:#301934 ;
+    padding: 5vh 10vw ;
+    text-align: center;
+    border: 3px solid ;
+    border-radius: 5px ;
+    margin: 0 auto ;
+    max-width: 1200px ;
+    margin-bottom: 3vh ;
+}
+.iconStyles {
+    width: 15vw;
+    max-width: 125px;
+    min-width: 30px;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+.picStyles {
+    width : 50vw;
+    max-width: 300px;
+    border:solid white 2px;
+    border-radius: 5px;
+}
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 30px;
+}
+
