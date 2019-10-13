@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/julio-react-portfolio/static/css/main.2702d2bd.chunk.css",
+    "main.js": "/julio-react-portfolio/static/js/main.e94eb08a.chunk.js",
+    "main.js.map": "/julio-react-portfolio/static/js/main.e94eb08a.chunk.js.map",
+    "runtime-main.js": "/julio-react-portfolio/static/js/runtime-main.ad65acd4.js",
+    "runtime-main.js.map": "/julio-react-portfolio/static/js/runtime-main.ad65acd4.js.map",
+    "static/js/2.4ec45232.chunk.js": "/julio-react-portfolio/static/js/2.4ec45232.chunk.js",
+    "static/js/2.4ec45232.chunk.js.map": "/julio-react-portfolio/static/js/2.4ec45232.chunk.js.map",
+    "index.html": "/julio-react-portfolio/index.html",
+    "precache-manifest.a10d9241eea11d651d6fdbd0a4cd8b1a.js": "/julio-react-portfolio/precache-manifest.a10d9241eea11d651d6fdbd0a4cd8b1a.js",
+    "service-worker.js": "/julio-react-portfolio/service-worker.js",
+    "static/css/main.2702d2bd.chunk.css.map": "/julio-react-portfolio/static/css/main.2702d2bd.chunk.css.map",
+    "static/media/The Office Quiz.png": "/julio-react-portfolio/static/media/The Office Quiz.e6c6337e.png",
+    "static/media/bookmarker.png": "/julio-react-portfolio/static/media/bookmarker.97447636.png",
+    "static/media/gitHub.svg": "/julio-react-portfolio/static/media/gitHub.76d344f0.svg",
+    "static/media/home.svg": "/julio-react-portfolio/static/media/home.aeaf2615.svg",
+    "static/media/identification.svg": "/julio-react-portfolio/static/media/identification.2044f92f.svg",
+    "static/media/linkedIn.png": "/julio-react-portfolio/static/media/linkedIn.fa52c1c9.png",
+    "static/media/particles.mp4": "/julio-react-portfolio/static/media/particles.e1e22107.mp4",
+    "static/media/web-programming.svg": "/julio-react-portfolio/static/media/web-programming.02fc4612.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ad65acd4.js",
+    "static/js/2.4ec45232.chunk.js",
+    "static/css/main.2702d2bd.chunk.css",
+    "static/js/main.e94eb08a.chunk.js"
+  ]
+}
