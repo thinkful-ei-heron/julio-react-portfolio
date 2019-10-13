@@ -14,6 +14,7 @@ const navStyles = {
 const iconStyles = {
     width:'5vw',
     maxWidth: '45px',
+    minWidth: '35px',
     dislay:'inline',
 }
 const listStyles = {
@@ -28,13 +29,13 @@ export class Navbar extends Component {
                 <nav style={navStyles}>
                     <ul className='nav-bar-items'>
                         <li style={listStyles}>
-                            <img src={require('./images/home.svg')} alt='Home' className='nav-icon' style={iconStyles}/>
+                            <a href='#landing'><img src={require('./images/home.svg')} alt='Home' className='nav-icon' style={iconStyles}/></a>
                         </li>
                         <li style={listStyles}>
-                            <img src={require('./images/web-programming.svg')} alt='Projects' className='nav-icon' style={iconStyles}/>
+                            <a href='#prolst'><img src={require('./images/web-programming.svg')} alt='Projects' className='nav-icon' style={iconStyles}/></a>
                         </li>
                         <li style={listStyles}>
-                            <img src={require('./images/identification.svg')} alt='Contact' className='nav-icon' style={iconStyles}/>
+                            <a href='#contact'><img src={require('./images/identification.svg')} alt='Contact' className='nav-icon' style={iconStyles}/></a>
                         </li>
                     </ul>
                 </nav>

@@ -10,6 +10,8 @@ const sectionStyle = {
     'minHeight':"100vh",
     'objectFit':"cover",
     'backgroundSize':"100% 100%",
+    '-webkit-filter': 'grayscale(100%)',
+    filter:'grayscale(100%)'
 }
 
 class LandingVideo extends Component {

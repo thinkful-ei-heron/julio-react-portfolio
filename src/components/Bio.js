@@ -1,17 +1,23 @@
 import React, { Component } from 'react'
 let sectionStyles = {
-    backgroundColor:'grey',
+    backgroundColor:'#86C5D8',
     padding:'5vh 10vw',
     textAlign: 'center',
+    border: '3px solid',
+    borderRadius: '5px',
+    margin:'0 auto',
+    maxWidth: '1200px',
+    marginBottom: '3vh',
 }
 
 let itemStyles = {
-    backgroundColor:'lightgrey',
+    backgroundColor:'#F0F8FF',
     padding:'5vh 5vw',
     lineHeight: '2',
     border:'2px solid black',
-    borderRadius: '15px',
-    margin: '20px 0',
+    borderRadius: '3px',
+    margin: '20px auto',
+    maxWidth: '1000px',
   }
 
 
@@ -21,7 +27,7 @@ export class Bio extends Component {
             <section className='bio' style={sectionStyles}>
                 <h2>About Me</h2>
                 <div style={itemStyles}>
-                    <h3>Hey there! I’m glad you’ve found my page. 
+                    <h4>Hey there! I’m glad you’ve found my page. 
                         My name is Julio Cesar Hernandez, but you can call me Julius 
                         Caesar if you’d like. I’m an up and coming web dev/software 
                         engineer who’s learning the basics at Thinkful’s Engineering 
@@ -34,7 +40,7 @@ export class Bio extends Component {
                         snow in a Honda. I’ve always been a person that loves to solve 
                         problems. In high school, I took the highest level math classes 
                         my school had to offer, which were Calc BC & Stats. I love growing 
-                        and I’d love if you gave me the opportunity to grow with you!</h3>
+                        and I’d love if you gave me the opportunity to grow with you!</h4>
                 </div>
             </section>
         )

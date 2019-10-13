@@ -16,16 +16,19 @@ const textStyle = {
     'textAlign':"center",
     'verticalAlign':"center",
     'justifyContent':'center',
-    'padding':'40vh 0'
+    'padding':'40vh 0',
+    fontSize:'40px',
+    
 }
 export class Landing extends Component {
     render() {
         return (
         
-        <section className='landing' style={sectionStyle}>
+        <section id='landing' style={sectionStyle}>
             <header style={textStyle} role="banner" id="header">
                 <h1>Hello World!</h1>
-                <p className="tldr">My name is Julio. I'm an entry level software engineer.</p>
+                <h2>{"<Julio Hernandez/>"}</h2>
+                <h2>Portfolio</h2>
             </header>
             <LandingVideo />
         </section>
