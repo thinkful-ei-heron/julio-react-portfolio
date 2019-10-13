@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/julio-react-portfolio/static/css/main.52d5d478.chunk.css",
-    "main.js": "/julio-react-portfolio/static/js/main.217cf060.chunk.js",
-    "main.js.map": "/julio-react-portfolio/static/js/main.217cf060.chunk.js.map",
+    "main.css": "/julio-react-portfolio/static/css/main.b51f35f6.chunk.css",
+    "main.js": "/julio-react-portfolio/static/js/main.9dc4b9ad.chunk.js",
+    "main.js.map": "/julio-react-portfolio/static/js/main.9dc4b9ad.chunk.js.map",
     "runtime-main.js": "/julio-react-portfolio/static/js/runtime-main.ad65acd4.js",
     "runtime-main.js.map": "/julio-react-portfolio/static/js/runtime-main.ad65acd4.js.map",
-    "static/js/2.4ec45232.chunk.js": "/julio-react-portfolio/static/js/2.4ec45232.chunk.js",
-    "static/js/2.4ec45232.chunk.js.map": "/julio-react-portfolio/static/js/2.4ec45232.chunk.js.map",
+    "static/js/2.e1c899df.chunk.js": "/julio-react-portfolio/static/js/2.e1c899df.chunk.js",
+    "static/js/2.e1c899df.chunk.js.map": "/julio-react-portfolio/static/js/2.e1c899df.chunk.js.map",
     "index.html": "/julio-react-portfolio/index.html",
-    "precache-manifest.d8bb3173bba6a25da12c7f7a61acad19.js": "/julio-react-portfolio/precache-manifest.d8bb3173bba6a25da12c7f7a61acad19.js",
+    "precache-manifest.6a1b1df4d4530e45babbd0aeda44053c.js": "/julio-react-portfolio/precache-manifest.6a1b1df4d4530e45babbd0aeda44053c.js",
     "service-worker.js": "/julio-react-portfolio/service-worker.js",
-    "static/css/main.52d5d478.chunk.css.map": "/julio-react-portfolio/static/css/main.52d5d478.chunk.css.map",
+    "static/css/main.b51f35f6.chunk.css.map": "/julio-react-portfolio/static/css/main.b51f35f6.chunk.css.map",
     "static/media/The Office Quiz.png": "/julio-react-portfolio/static/media/The Office Quiz.e6c6337e.png",
     "static/media/bookmarker.png": "/julio-react-portfolio/static/media/bookmarker.97447636.png",
-    "static/media/gitHub.svg": "/julio-react-portfolio/static/media/gitHub.76d344f0.svg",
+    "static/media/email1.svg": "/julio-react-portfolio/static/media/email1.57f85643.svg",
+    "static/media/github1.svg": "/julio-react-portfolio/static/media/github1.364b6f4a.svg",
     "static/media/home.svg": "/julio-react-portfolio/static/media/home.aeaf2615.svg",
     "static/media/identification.svg": "/julio-react-portfolio/static/media/identification.2044f92f.svg",
-    "static/media/linkedIn.png": "/julio-react-portfolio/static/media/linkedIn.fa52c1c9.png",
+    "static/media/linkedin1.svg": "/julio-react-portfolio/static/media/linkedin1.4b9d6707.svg",
     "static/media/particles.mp4": "/julio-react-portfolio/static/media/particles.e1e22107.mp4",
+    "static/media/phone1.jpg": "/julio-react-portfolio/static/media/phone1.38469b6a.jpg",
     "static/media/web-programming.svg": "/julio-react-portfolio/static/media/web-programming.02fc4612.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.ad65acd4.js",
-    "static/js/2.4ec45232.chunk.js",
-    "static/css/main.52d5d478.chunk.css",
-    "static/js/main.217cf060.chunk.js"
+    "static/js/2.e1c899df.chunk.js",
+    "static/css/main.b51f35f6.chunk.css",
+    "static/js/main.9dc4b9ad.chunk.js"
   ]
 }
