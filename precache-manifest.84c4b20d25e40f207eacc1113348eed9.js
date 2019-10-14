@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ff5125e8fa3a1a7c9606f5d81b3cc63b",
+    "revision": "3de882dbfbe63fca90685194bdba802b",
     "url": "/julio-react-portfolio/index.html"
   },
   {
-    "revision": "f176bad92bf9f9f70ac2",
-    "url": "/julio-react-portfolio/static/css/main.b51f35f6.chunk.css"
+    "revision": "a0064f009d7d039cf041",
+    "url": "/julio-react-portfolio/static/css/main.95a2dc58.chunk.css"
   },
   {
-    "revision": "1afa2193ac7995c682a1",
-    "url": "/julio-react-portfolio/static/js/2.e1c899df.chunk.js"
+    "revision": "a059bf7ee6c31ea77c42",
+    "url": "/julio-react-portfolio/static/js/2.d1b48314.chunk.js"
   },
   {
-    "revision": "f176bad92bf9f9f70ac2",
-    "url": "/julio-react-portfolio/static/js/main.9dc4b9ad.chunk.js"
+    "revision": "a0064f009d7d039cf041",
+    "url": "/julio-react-portfolio/static/js/main.dfb4d9ea.chunk.js"
   },
   {
     "revision": "0c59015bd8a19846112b",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "97447636656a81f3f309c815437e1b6c",
     "url": "/julio-react-portfolio/static/media/bookmarker.97447636.png"
+  },
+  {
+    "revision": "76d344f08412543c74ccd1fb2493d607",
+    "url": "/julio-react-portfolio/static/media/code.76d344f0.svg"
   },
   {
     "revision": "57f856437908877fb031c6b53ef2a329",
@@ -46,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4b9d67074bdea08052fb1146e4779e9d",
     "url": "/julio-react-portfolio/static/media/linkedin1.4b9d6707.svg"
+  },
+  {
+    "revision": "f362f9c2bffb2437646193bd872cf80b",
+    "url": "/julio-react-portfolio/static/media/livesite.f362f9c2.jpg"
   },
   {
     "revision": "e1e22107121e8033306e9204887c6dc2",
