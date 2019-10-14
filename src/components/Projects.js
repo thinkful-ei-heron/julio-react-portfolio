@@ -5,27 +5,25 @@ export class Projects extends Component {
     render() {
     return (
     <section id='prolst' className='sectionStyles'>
-        <h2>Projects</h2>
-
+      <h2>Projects</h2>
+      <div className='projectStyles'>
         {projectList.map((item) => {
-        
-        return (
-        <div key={item.name} className='itemStyles'>
-            
-            <h3>{item.name}</h3>
-            <img src={require(`${item.imageLink}`)} alt={item.name} className='picStyles'/>
-            <h4>{item.description}</h4>
-            <h4>Stack : {item.stack}</h4>
-            <h4>Links : <a href={item.liveSite} target="_blank" rel="noopener noreferrer">Live Site</a> | <a href={item.codeURL} target="_blank" rel="noopener noreferrer" className='site project'>Code</a></h4>
-            
-        </div> 
+          return (
+            <div key={item.name} className='projectItemStyles'>
+              <h3>{item.name}</h3>
+              <img src={require(`${item.imageLink}`)} alt={item.name} className='picStyles'/>
+              <hr/>
+              <h4>{item.description}</h4>
+              {item.stack}
+              <hr/>
+              <h4>Links</h4>
+              <a href={item.liveSite} target="_blank" rel="noopener noreferrer"><img src={require('./images/livesite.jpg')} alt='Live Site' className='projectsIcons'/></a><a href={item.codeURL} target="_blank" rel="noopener noreferrer" className='site project'><img src={require('./images/code.svg')} alt='Code Site' className='projectsIcons'/></a>
+            </div> 
+          )}
         )}
-
-      )}
-    
+      </div>
     </section>
     );
   }
 }
-
 export default Projects

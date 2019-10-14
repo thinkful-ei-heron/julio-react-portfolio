@@ -5,8 +5,7 @@ import Projects from './components/Projects'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import Landing from './components/Landing'
-import './App.css'
-
+import Flavicon from './components/Flavicon'
 function App() {
   return (
       <main>
@@ -15,9 +14,9 @@ function App() {
         <Bio/>
         <Projects/>
         <Contact/>
+        <Flavicon/>
         <Footer/>
       </main>
   );
 }
-
 export default App;

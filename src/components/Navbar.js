@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-
 const navStyles = {
     backgroundColor:'rgba(1,1,1,.85)',
     position:'fixed',
-    padding:'1% 0',
+    padding:'.5% 0',
     top:'0',
     left:'0',
     right:'0',
@@ -13,14 +12,13 @@ const navStyles = {
 }
 const iconStyles = {
     width:'5vw',
-    maxWidth: '35px',
-    minWidth: '30px',
+    maxWidth: '37px',
+    minWidth: '35px',
 }
 const listStyles = {
     display: 'inline-block',
-    padding: '5px 8vw'
+    padding: '2.5px 8vw'
 }
-
 export class Navbar extends Component {
     render() {
         return (
@@ -42,5 +40,4 @@ export class Navbar extends Component {
         )
     }
 }
-
 export default Navbar

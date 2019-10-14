@@ -1,6 +1,4 @@
 import React, { Component } from 'react'
-
-
 const sectionStyle = {
     position: "fixed",
     'zIndex': "-100",
@@ -13,7 +11,6 @@ const sectionStyle = {
     'WebkitFilter': 'grayscale(100%)',
     filter:'brightness(80%)'
 }
-
 class LandingVideo extends Component {
     render () {
         return (
@@ -25,5 +22,4 @@ class LandingVideo extends Component {
         )
     }
 };
-
 export default LandingVideo;
