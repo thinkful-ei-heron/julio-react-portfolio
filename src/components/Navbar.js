@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
+import {NavLink} from 'react-router-dom';
+
 const navStyles = {
-    backgroundColor:'rgba(1,1,1,.85)',
+    backgroundColor:'rgba(190,190,190, 0.3)',
     position:'fixed',
     padding:'.5% 0',
     top:'0',
     left:'0',
     right:'0',
+    marginBottom: 'height',
     zIndex: '10',
     display:'flex',
     justifyContent: 'center',
@@ -26,13 +29,19 @@ export class Navbar extends Component {
                 <nav style={navStyles}>
                     <ul className='nav-bar-items'>
                         <li style={listStyles}>
-                            <a href='#landing'><img src={require('./images/home.svg')} alt='Home' className='nav-icon' style={iconStyles}/></a>
+                            <NavLink to={'/projects'}>
+                                <img src={require('./images/web-programming.svg')} alt='Projects' className='nav-icon' style={iconStyles}/>
+                            </NavLink>
                         </li>
                         <li style={listStyles}>
-                            <a href='#prolst'><img src={require('./images/web-programming.svg')} alt='Projects' className='nav-icon' style={iconStyles}/></a>
+                            <NavLink to={'/'}>
+                                <img src={require('./images/home.svg')} alt='Home' className='nav-icon' style={iconStyles}/>
+                            </NavLink>
                         </li>
                         <li style={listStyles}>
-                            <a href='#contact'><img src={require('./images/identification.svg')} alt='Contact' className='nav-icon' style={iconStyles}/></a>
+                            <NavLink to={'/contact'}>
+                                <img src={require('./images/identification.svg')} alt='Contact' className='nav-icon' style={iconStyles}/>
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>

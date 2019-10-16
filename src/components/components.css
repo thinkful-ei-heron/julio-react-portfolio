@@ -11,35 +11,35 @@ h3, h4 {
     Font-Family: 'Cabin', Sans-Serif;
 }
 .sectionStyles {
-    background-color:rgba(1,1,1,.9);
-    color: white;
-    padding: 2.5vh 5vw;
+    background-color: white;
+    color: black;
+    /* padding: 2.5vh 5vw; */
     text-align: center;
-    border: 10px solid #301934;
+    border: 10px solid black;
     border-radius: 5px;
     margin:0 auto;
     max-width: 1250px;
-    margin-bottom: 3vh;
+    /* margin-bottom: 3vh; */
 }
 .itemStyles {
-    background-color:#301934;
-    padding: 1.5vh 5vw;
+    background-color:grey;
+    /* padding: 1.5vh 5vw; */
     line-height: 2;
-    border: 2px solid #301934;
+    border: 2px solid black;
     border-radius: 5px;
     margin: 20px auto;
     max-width: 1100px;
 } 
 .projectStyles {
-    background-color:#301934;
+    background-color:grey;
     color: white;
-    padding: .01vh 4vw;
+    /* padding: .01vh 4vw; */
     text-align: center;
-    border: 10px solid #301934;
+    border: 10px solid black;
     border-radius: 5px;
     margin:0 auto;
     max-width: 1200px;
-    margin-bottom: 3vh;
+    /* margin-bottom: 3vh; */
 }
 .projectItemStyles {
     background-color:lightgrey;
@@ -48,7 +48,7 @@ h3, h4 {
     line-height: 2;
     border: 3.5px solid black;
     border-radius: 5px;
-    margin: 20px auto;
+    /* margin: 20px auto; */
     max-width: 1000px;
 } 
 .iconStyles {
@@ -67,7 +67,7 @@ h3, h4 {
 .picStyles {
     width : 50vw;
     max-width: 250px;
-    border:solid #301934 2px;
+    border:solid black 2px;
     border-radius: 5px;
 }
 i {

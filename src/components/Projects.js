@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import projectList from './ProjectList'
-import './index.css'
+import './components.css'
 export class Projects extends Component {    
     render() {
     return (
@@ -13,7 +13,7 @@ export class Projects extends Component {
               <h3>{item.name}</h3>
               <img src={require(`${item.imageLink}`)} alt={item.name} className='picStyles'/>
               <hr/>
-              <h4>{item.description}</h4>
+              <p>{item.description}</p>
               {item.stack}
               <hr/>
               <h4>Links</h4>

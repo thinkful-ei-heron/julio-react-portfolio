@@ -9,7 +9,7 @@ const sectionStyle = {
     'objectFit':"cover",
     'backgroundSize':"100% 100%",
     'WebkitFilter': 'grayscale(100%)',
-    filter:'brightness(80%)'
+    filter:'invert(100%) saturate(5%) brightness(110%)'
 }
 class LandingVideo extends Component {
     render () {

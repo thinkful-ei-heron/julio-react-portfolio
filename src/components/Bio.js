@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './index.css'
+import './components.css'
 export class Bio extends Component {
     render() {
         return (

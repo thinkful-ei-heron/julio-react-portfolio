@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './index.css'
+import './components.css'
 const FlaviconStyles = {
     color: 'white',
     textAlign: 'center',
