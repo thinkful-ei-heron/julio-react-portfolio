@@ -3,7 +3,7 @@ import './components.css';
 export class Flavicon extends Component {
   render() {
     return (
-      <section id='flavicon' className='sectionStyles'>
+      <section id='flavicon' className='sectionStyles flavicon'>
         <h5>
           Icons made by :{' '}
           <a

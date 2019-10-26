@@ -27,8 +27,8 @@ const projectList = [
     description: (
       <p>
         This app is a short run quiz that tests your knowledge on the show The
-        Office. It built to learn app architecture and accessing variables
-        within the root directory. Built with a partner :{' '}
+        Office. It was built to learn app architecture and accessing variables
+        within the root directory. Made with a partner :{' '}
         <a
           href='https://github.com/wjacobs71086'
           target='_blank'

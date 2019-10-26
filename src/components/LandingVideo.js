@@ -21,6 +21,7 @@ class LandingVideo extends Component {
         loop
         autoPlay
         playsinline
+        playsInline
       >
         <source src={require('./video/particles.mp4')} type='video/mp4' />
         Your browser does not support the video tag.
