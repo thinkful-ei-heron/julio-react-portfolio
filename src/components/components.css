@@ -6,16 +6,22 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: 'Roboto Mono', monospace;
   color: black;
 }
 p {
   font-family: 'Muli', sans-serif;
 }
+*::-webkit-media-controls-start-playback-button {
+  display: none !important;
+  -webkit-appearance: none;
+}
 .sectionStyles {
   background-color: white;
   text-align: center;
+  margin: 0.2px auto;
 }
 .itemStyles {
   background-color: white;
