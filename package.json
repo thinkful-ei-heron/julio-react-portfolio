@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://thinkful-ei-heron.github.io/julio-react-portfolio/",
+  "homepage": "https://hernandez-crypto.github.io/portfolio/",
   "dependencies": {
     "gh-pages": "^2.1.1",
     "react": "^16.10.2",

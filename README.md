@@ -1,2 +1,1 @@
-#julio-react-portfolio
-reactified portfolio
+Julio Portfolio
