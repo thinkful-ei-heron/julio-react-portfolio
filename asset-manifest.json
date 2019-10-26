@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/julio-react-portfolio/static/css/main.7e9021d3.chunk.css",
-    "main.js": "/julio-react-portfolio/static/js/main.f16211e0.chunk.js",
-    "main.js.map": "/julio-react-portfolio/static/js/main.f16211e0.chunk.js.map",
+    "main.js": "/julio-react-portfolio/static/js/main.3271fa5e.chunk.js",
+    "main.js.map": "/julio-react-portfolio/static/js/main.3271fa5e.chunk.js.map",
     "runtime-main.js": "/julio-react-portfolio/static/js/runtime-main.ad65acd4.js",
     "runtime-main.js.map": "/julio-react-portfolio/static/js/runtime-main.ad65acd4.js.map",
     "static/js/2.380f4158.chunk.js": "/julio-react-portfolio/static/js/2.380f4158.chunk.js",
     "static/js/2.380f4158.chunk.js.map": "/julio-react-portfolio/static/js/2.380f4158.chunk.js.map",
     "index.html": "/julio-react-portfolio/index.html",
-    "precache-manifest.493c406cc98ba9d48e7442848c25334f.js": "/julio-react-portfolio/precache-manifest.493c406cc98ba9d48e7442848c25334f.js",
+    "precache-manifest.5665ba2bad6b114685c9d3e53bf5b565.js": "/julio-react-portfolio/precache-manifest.5665ba2bad6b114685c9d3e53bf5b565.js",
     "service-worker.js": "/julio-react-portfolio/service-worker.js",
     "static/css/main.7e9021d3.chunk.css.map": "/julio-react-portfolio/static/css/main.7e9021d3.chunk.css.map",
     "static/media/The Office Quiz.png": "/julio-react-portfolio/static/media/The Office Quiz.e6c6337e.png",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.ad65acd4.js",
     "static/js/2.380f4158.chunk.js",
     "static/css/main.7e9021d3.chunk.css",
-    "static/js/main.f16211e0.chunk.js"
+    "static/js/main.3271fa5e.chunk.js"
   ]
 }
