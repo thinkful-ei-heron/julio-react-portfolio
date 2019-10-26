@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3de882dbfbe63fca90685194bdba802b",
+    "revision": "d9a3de60d89dd3ae4fa546964989dbb1",
     "url": "/julio-react-portfolio/index.html"
   },
   {
-    "revision": "a0064f009d7d039cf041",
-    "url": "/julio-react-portfolio/static/css/main.95a2dc58.chunk.css"
+    "revision": "d52e147be515ee8e93b7",
+    "url": "/julio-react-portfolio/static/css/main.b18c1a59.chunk.css"
   },
   {
-    "revision": "a059bf7ee6c31ea77c42",
-    "url": "/julio-react-portfolio/static/js/2.d1b48314.chunk.js"
+    "revision": "b670096993d9ec45885f",
+    "url": "/julio-react-portfolio/static/js/2.380f4158.chunk.js"
   },
   {
-    "revision": "a0064f009d7d039cf041",
-    "url": "/julio-react-portfolio/static/js/main.dfb4d9ea.chunk.js"
+    "revision": "d52e147be515ee8e93b7",
+    "url": "/julio-react-portfolio/static/js/main.f16211e0.chunk.js"
   },
   {
     "revision": "0c59015bd8a19846112b",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/julio-react-portfolio/static/media/code.76d344f0.svg"
   },
   {
+    "revision": "595ce2f326ad1e8905d62f124ff1fec9",
+    "url": "/julio-react-portfolio/static/media/email.595ce2f3.svg"
+  },
+  {
     "revision": "57f856437908877fb031c6b53ef2a329",
     "url": "/julio-react-portfolio/static/media/email1.57f85643.svg"
   },
@@ -48,6 +52,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/julio-react-portfolio/static/media/identification.2044f92f.svg"
   },
   {
+    "revision": "9e36c8fd15d6f93ed6a45f9484746e8f",
+    "url": "/julio-react-portfolio/static/media/linkedin.9e36c8fd.svg"
+  },
+  {
     "revision": "4b9d67074bdea08052fb1146e4779e9d",
     "url": "/julio-react-portfolio/static/media/linkedin1.4b9d6707.svg"
   },
@@ -58,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e1e22107121e8033306e9204887c6dc2",
     "url": "/julio-react-portfolio/static/media/particles.e1e22107.mp4"
+  },
+  {
+    "revision": "4f13404aa04805594ae255d9e73df9c8",
+    "url": "/julio-react-portfolio/static/media/phone.4f13404a.png"
   },
   {
     "revision": "38469b6adf4f09e975e2e03856495e9d",
