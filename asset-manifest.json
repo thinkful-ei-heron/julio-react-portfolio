@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/julio-react-portfolio/static/css/main.7e9021d3.chunk.css",
-    "main.js": "/julio-react-portfolio/static/js/main.3271fa5e.chunk.js",
-    "main.js.map": "/julio-react-portfolio/static/js/main.3271fa5e.chunk.js.map",
+    "main.css": "/julio-react-portfolio/static/css/main.b1cf6c6f.chunk.css",
+    "main.js": "/julio-react-portfolio/static/js/main.dc9dfad1.chunk.js",
+    "main.js.map": "/julio-react-portfolio/static/js/main.dc9dfad1.chunk.js.map",
     "runtime-main.js": "/julio-react-portfolio/static/js/runtime-main.ad65acd4.js",
     "runtime-main.js.map": "/julio-react-portfolio/static/js/runtime-main.ad65acd4.js.map",
     "static/js/2.380f4158.chunk.js": "/julio-react-portfolio/static/js/2.380f4158.chunk.js",
     "static/js/2.380f4158.chunk.js.map": "/julio-react-portfolio/static/js/2.380f4158.chunk.js.map",
     "index.html": "/julio-react-portfolio/index.html",
-    "precache-manifest.5665ba2bad6b114685c9d3e53bf5b565.js": "/julio-react-portfolio/precache-manifest.5665ba2bad6b114685c9d3e53bf5b565.js",
+    "precache-manifest.72617bf4138dce189c81e5a224d27eee.js": "/julio-react-portfolio/precache-manifest.72617bf4138dce189c81e5a224d27eee.js",
     "service-worker.js": "/julio-react-portfolio/service-worker.js",
-    "static/css/main.7e9021d3.chunk.css.map": "/julio-react-portfolio/static/css/main.7e9021d3.chunk.css.map",
+    "static/css/main.b1cf6c6f.chunk.css.map": "/julio-react-portfolio/static/css/main.b1cf6c6f.chunk.css.map",
     "static/media/The Office Quiz.png": "/julio-react-portfolio/static/media/The Office Quiz.e6c6337e.png",
     "static/media/bookmarker.png": "/julio-react-portfolio/static/media/bookmarker.97447636.png",
     "static/media/code.svg": "/julio-react-portfolio/static/media/code.76d344f0.svg",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.ad65acd4.js",
     "static/js/2.380f4158.chunk.js",
-    "static/css/main.7e9021d3.chunk.css",
-    "static/js/main.3271fa5e.chunk.js"
+    "static/css/main.b1cf6c6f.chunk.css",
+    "static/js/main.dc9dfad1.chunk.js"
   ]
 }
