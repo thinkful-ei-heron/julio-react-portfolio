@@ -17,7 +17,7 @@ export class Projects extends Component {
                   className='picStyles'
                 />
                 <hr />
-                <p>{item.description}</p>
+                {item.description}
                 {item.stack}
                 <hr />
                 <h4>Links</h4>

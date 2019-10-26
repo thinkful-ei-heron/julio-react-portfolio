@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import LandingVideo from './LandingVideo';
-import Flavicon from './Flavicon';
-
 const sectionStyle = {
   top: '0',
   width: '100vw',
@@ -9,7 +7,7 @@ const sectionStyle = {
   position: 'relative',
 };
 const textStyle = {
-  color: 'black',
+  color: 'white',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -24,11 +22,10 @@ export class Landing extends Component {
     return (
       <section id='landing' style={sectionStyle}>
         <header style={textStyle} role='banner' id='header'>
-          <h2>Julio Hernandez</h2>
-          <h2>Web Dev Portfolio</h2>
+          <h1>Julio Hernandez</h1>
+          <h2>Software Developer</h2>
         </header>
         <LandingVideo />
-        <Flavicon />
       </section>
     );
   }

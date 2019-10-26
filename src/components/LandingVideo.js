@@ -8,8 +8,7 @@ const sectionStyle = {
   minHeight: '100vh',
   objectFit: 'cover',
   backgroundSize: '100% 100%',
-  WebkitFilter: 'grayscale(100%)',
-  filter: 'invert(100%) saturate(5%) brightness(110%)',
+  filter: 'invert(100%) brightness(110%) saturate(5%)',
 };
 class LandingVideo extends Component {
   render() {

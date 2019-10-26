@@ -1,17 +1,9 @@
 import React, { Component } from 'react';
 import './components.css';
-const FlaviconStyles = {
-  color: 'white',
-  textAlign: 'center',
-  fontSize: '12px',
-};
-const linkStyle = {
-  color: 'white',
-};
 export class Flavicon extends Component {
   render() {
     return (
-      <section id='flavicon' style={FlaviconStyles}>
+      <section id='flavicon' className='sectionStyles'>
         <h5>
           Icons made by :{' '}
           <a
@@ -19,7 +11,6 @@ export class Flavicon extends Component {
             target='_blank'
             rel='noopener noreferrer'
             title='Freepik'
-            style={linkStyle}
           >
             Freepik
           </a>{' '}
@@ -27,7 +18,6 @@ export class Flavicon extends Component {
           <a
             href='https://www.flaticon.com/authors/icongeek26'
             title='Icongeek26'
-            style={linkStyle}
           >
             Icongeek26
           </a>{' '}
@@ -37,7 +27,6 @@ export class Flavicon extends Component {
             target='_blank'
             rel='noopener noreferrer'
             title='Flaticon'
-            style={linkStyle}
           >
             www.flaticon.com
           </a>

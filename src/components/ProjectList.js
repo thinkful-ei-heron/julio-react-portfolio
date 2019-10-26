@@ -2,14 +2,20 @@ import React from 'react';
 const projectList = [
   {
     name: 'Bookmarker 9000',
-    description:
-      'This app was constructed using an API. Users can input title, rating, description, and URL. Inputs will be used to construct a list. Users can also filter by selecting a minimum rating, edit rating and description, and click on the title to be directed to the site.',
+    description: (
+      <p>
+        This app was constructed using an API. Users can input title, rating,
+        description, and URL. Inputs will be used to construct a list. Users can
+        also filter by selecting a minimum rating, edit rating and description,
+        and click on the title to be directed to the site.
+      </p>
+    ),
     stack: (
       <div>
-        <i className='devicon-html5-plain'></i>
-        <i className='devicon-css3-plain'></i>
-        <i className='devicon-javascript-plain'></i>
-        <i className='devicon-jquery-plain'></i>
+        <i className='devicon-html5-plain colored'></i>
+        <i className='devicon-css3-plain colored'></i>
+        <i className='devicon-javascript-plain colored'></i>
+        <i className='devicon-jquery-plain colored'></i>
       </div>
     ),
     imageLink: './images/bookmarker.png',
@@ -18,14 +24,27 @@ const projectList = [
   },
   {
     name: 'The Office Quiz',
-    description:
-      'The app is a short run quiz that tests your knowledge on the showThe Office. This app was built to learn app architecture and accessing variables within the root directory. This app was built with a partner : Wesley Jacobs.',
+    description: (
+      <p>
+        This app is a short run quiz that tests your knowledge on the show The
+        Office. It built to learn app architecture and accessing variables
+        within the root directory. Built with a partner :{' '}
+        <a
+          href='https://github.com/wjacobs71086'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Wesley Jacobs
+        </a>
+        .
+      </p>
+    ),
     stack: (
       <div>
-        <i className='devicon-html5-plain'></i>
-        <i className='devicon-css3-plain'></i>
-        <i className='devicon-javascript-plain'></i>
-        <i className='devicon-jquery-plain'></i>
+        <i className='devicon-html5-plain colored'></i>
+        <i className='devicon-css3-plain colored'></i>
+        <i className='devicon-javascript-plain colored'></i>
+        <i className='devicon-jquery-plain colored'></i>
       </div>
     ),
     imageLink: './images/The Office Quiz.png',

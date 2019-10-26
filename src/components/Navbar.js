@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import { NavLink } from 'react-router-dom';
-
 const navStyles = {
-  backgroundColor: 'rgba(190,190,190, 0.3)',
+  backgroundColor: 'rgba(1,1,1,.85)',
   position: 'fixed',
   padding: '.5% 0',
   top: '0',
   left: '0',
   right: '0',
-  marginBottom: 'height',
   zIndex: '10',
   display: 'flex',
   justifyContent: 'center',
@@ -29,34 +26,34 @@ export class Navbar extends Component {
         <nav style={navStyles}>
           <ul className='nav-bar-items'>
             <li style={listStyles}>
-              <NavLink to={'/projects'}>
+              <a href='#prolst'>
                 <img
                   src={require('./images/web-programming.svg')}
                   alt='Projects'
                   className='nav-icon'
                   style={iconStyles}
                 />
-              </NavLink>
+              </a>
             </li>
             <li style={listStyles}>
-              <NavLink to={'/'}>
+              <a href='#landing'>
                 <img
                   src={require('./images/home.svg')}
                   alt='Home'
                   className='nav-icon'
                   style={iconStyles}
                 />
-              </NavLink>
+              </a>
             </li>
             <li style={listStyles}>
-              <NavLink to={'/contact'}>
+              <a href='#contact'>
                 <img
                   src={require('./images/identification.svg')}
                   alt='Contact'
                   className='nav-icon'
                   style={iconStyles}
                 />
-              </NavLink>
+              </a>
             </li>
           </ul>
         </nav>
