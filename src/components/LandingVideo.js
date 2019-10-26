@@ -20,6 +20,7 @@ class LandingVideo extends Component {
         height='100%'
         loop
         autoPlay
+        playsinline
       >
         <source src={require('./video/particles.mp4')} type='video/mp4' />
         Your browser does not support the video tag.
